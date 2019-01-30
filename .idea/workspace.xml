@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92b8ce3f-6726-4b96-aa14-5a03e844d38c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ipsStatistika.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/.flowconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/.fossaignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/.jscs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/.spelling" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bin/xlsx.njs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/00_header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/01_version.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/02_codepage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/03_consts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/04_base64.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/05_buf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/09_types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/10_ssf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/11_ssfutils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/18_cfb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/19_fsutils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/20_jsutils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/21_ziputils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/22_xmlutils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/23_binutils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/24_hoppers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/25_cellutils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/26_crypto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/27_csfutils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/28_binstructs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/29_xlsenum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/30_ctype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/31_rels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/32_odmanrdf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/33_coreprops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/34_extprops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/35_custprops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/36_xlsprops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/38_xlstypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/39_xlsbiff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/40_harb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/41_lotus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/42_sstxml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/43_sstbin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/44_offcrypto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/45_rtf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/46_stycommon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/47_styxml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/48_stybin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/49_theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/50_styxls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/52_calcchain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/53_externlink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/54_drawing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/55_vml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/56_cmntcommon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/57_cmntxml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/58_cmntbin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/59_vba.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/60_macrovba.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/61_fcommon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/62_fxls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/63_fbin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/64_ftab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/65_fods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/66_wscommon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/67_wsxml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/68_wsbin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/69_chartxml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/70_csheet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/71_wbcommon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/72_wbxml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/73_wbbin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/74_xmlbin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/75_xlml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/76_xls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/77_parsetab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/78_writebiff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/79_html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/80_parseods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/81_writeods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/82_sheeter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/84_defaults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/85_parsezip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/86_writezip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/87_read.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/88_write.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/90_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/95_api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/97_node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/98_exports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bits/99_footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/book.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/altjs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/altjs/.swiftlint.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/altjs/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/altjs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/altjs/SJSPlayground.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/altjs/SheetJSCore.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/altjs/SheetJSRhino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/altjs/chakra.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/altjs/com/sheetjs/JSHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/altjs/com/sheetjs/ObjectNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/altjs/com/sheetjs/SheetJSFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/altjs/com/sheetjs/SheetJSSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/altjs/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/altjs/goja.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/altjs/main.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/altjs/nashorn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular/SheetJS-angular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular/shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular/xlsx.core.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular/xlsx.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular2/.angular-cli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular2/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular2/ionic.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular2/ionic.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular2/nscript.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular2/nscript.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular2/nsmain.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular2/package.json-angular2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular2/package.json-angular4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular2/package.json-angular5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular2/screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular2/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular2/src/app/sheetjs.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular2/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular2/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular2/src/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular2/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/array/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/array/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/array/linest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/array/propel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/array/tf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/browserify/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/browserify/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/browserify/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/browserify/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/browserify/xlsxworker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/chrome/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/chrome/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/chrome/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/chrome/content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/chrome/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/chrome/popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/chrome/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/database/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/database/FirebaseTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/database/KnexTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/database/LowDBTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/database/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/database/MongoDBCRUD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/database/MongoDBTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/database/MySQLTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/database/ObjUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/database/PgSQLTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/database/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/database/RedisTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/database/SQLiteTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/database/SheetJSForage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/database/SheetJSKnex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/database/SheetJSLowDB.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/database/SheetJSMongo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/database/SheetJSRedis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/database/SheetJSSQL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/database/SheetJSStorage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/database/xlsx.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/datagrid/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/datagrid/shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/datagrid/xlsx.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/electron/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/electron/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/electron/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/electron/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/electron/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/electron/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/extendscript/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/extendscript/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/extendscript/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/extendscript/aftereffects.base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/extendscript/aftereffects.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/extendscript/estoolkit.base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/extendscript/estoolkit.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/extendscript/illustrator.base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/extendscript/illustrator.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/extendscript/indesign.base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/extendscript/indesign.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/extendscript/photoshop.base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/extendscript/photoshop.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/extendscript/test.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/function/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/function/AzureHTTPTrigger/function.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/function/AzureHTTPTrigger/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/function/LambdaProxy/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/function/LambdaProxy/template.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/function/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/function/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/function/host.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/function/local.settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/function/mcstream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/fusebox/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/fusebox/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/fusebox/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/fusebox/fuse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/fusebox/sheetjs.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/headless/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/headless/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/headless/chromeless.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/headless/phantomjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/headless/puppeteer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/headless/slimerjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/knockout/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/knockout/shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/knockout/xlsx.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/meteor/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/meteor/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/meteor/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/meteor/client/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/meteor/client/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/meteor/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/meteor/server/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/nwjs/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/nwjs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/nwjs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/nwjs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/nwjs/xlsx.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/oldie/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/oldie/base64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/oldie/download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/oldie/downloadify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/oldie/downloadify.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/oldie/shim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/oldie/swfobject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/oldie/xlsx.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/parcel/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/parcel/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/parcel/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/parcel/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/react/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/react/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/react/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/react/native.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/react/nexthdr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/react/pages/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/react/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/react/react-native.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/react/screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/react/sheetjs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/requirejs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/requirejs/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/requirejs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/requirejs/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/requirejs/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/rollup/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/rollup/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/rollup/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/rollup/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/rollup/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/rollup/rollup.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/rollup/rollup.config.node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/rollup/rollup.config.worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/rollup/xlsxworker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/server/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/server/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/server/_cors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/server/_logit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/server/_request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/server/express.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/server/hapi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/server/koa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/server/koasub.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/server/micro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/server/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/server/worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/systemjs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/systemjs/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/systemjs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/systemjs/app.node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/systemjs/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/systemjs/main.simple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/systemjs/test.node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/systemjs/worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/systemjs/xlsxworker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/typescript/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/typescript/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/typescript/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/typescript/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/typescript/lib/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/typescript/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/typescript/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/typescript/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/typescript/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/vue/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/vue/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/vue/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/vue/SheetJS-vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/vue/native.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/vue/nuxt.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/vue/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/vue/pages/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/vue/screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/vue/shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/vue/static/shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/vue/static/xlsx.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/vue/weex.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/vue/xlsx.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/webpack/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/webpack/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/webpack/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/webpack/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/webpack/appworker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/webpack/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/webpack/coreworker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/webpack/full.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/webpack/fullworker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/webpack/mainworker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/webpack/webpack.app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/webpack/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/webpack/xlsx.core.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/webpack/xlsx.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/xhr/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/xhr/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/xhr/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/xhr/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/xhr/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/demos/xhr/xlsx.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/dist/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/dist/cpexcel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/dist/jszip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/dist/shim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/dist/xlsx.core.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/dist/xlsx.core.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/dist/xlsx.extendscript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/dist/xlsx.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/dist/xlsx.full.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/dist/xlsx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/dist/xlsx.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/dist/xlsx.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/00_intro.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/01_toc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/10_install.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/11_demos.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/12_optional.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/15_phil.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/20_import.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/21_readstream.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/25_manip.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/30_export.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/31_writestream.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/40_interface.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/50_csf.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/51_cell.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/52_datatype.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/53_wsobject.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/54_shobject.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/55_wbobject.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/56_wbprops.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/57_wbbook.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/60_features.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/61_formulae.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/62_colrow.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/63_numfmt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/64_cellprops.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/66_comments.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/73_sheetprops.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/77_macrovba.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/80_parseopts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/81_writeopts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/82_util.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/85_filetype.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/90_test.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/95_contrib.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/97_license.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/docbits/98_reference.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/formats.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/formats.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/jszip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/legend.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/make.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/misc/docs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/misc/docs/SUMMARY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/misc/docs/formats.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/misc/docs/legend.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/misc/docs/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/misc/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/misc/flowdeps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/misc/help.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/misc/legend.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/misc/spin.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/misc/ssf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/misc/strip_flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/misc/strip_sourcemap.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/misc/suppress_export.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/multiformat.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/tests.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/tests/base64.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/tests/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/tests/fixtures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/tests/fixtures.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/tests/fs_.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/tests/make_fixtures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/tests/mocha.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/tests/mocha.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/tests/shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/tests/testA.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/tests/write.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/tests/xlsx.core.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/tests/xlsx.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/types/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/types/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/types/bin_xlsx.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/types/doc.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/types/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/types/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/types/write.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/types/xlsx-tests.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/xlsx.flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/xlsx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/xlsxworker.flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js-xlsx-master/xlsxworker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/script1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/konekcija.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/podaciInsert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/unosExcela.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample3.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample4Tarife.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/excel.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/head.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/pocetna.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/pregled.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-912314682">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="inc" value="2" />
+          <entry key="js" value="6" />
+          <entry key="php" value="56" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JavaScript" value="6" />
+          <entry key="PHP" value="58" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="2017" />
+          <entry key="php" value="6894" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="2017" />
+          <entry key="PHP" value="6883" />
+          <entry key="SQL" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP Class.type" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/pregled.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/pocetna.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-152">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JS/script1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>load</find>
+      <find>echo</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/reader.php" />
+        <option value="$PROJECT_DIR$/modules/exelToDB.php" />
+        <option value="$PROJECT_DIR$/views/unos.php" />
+        <option value="$PROJECT_DIR$/modules/PHPExcel.php" />
+        <option value="$PROJECT_DIR$/modules/PHPExcel_IOFactory.php" />
+        <option value="$PROJECT_DIR$/script1.js" />
+        <option value="$PROJECT_DIR$/views/head.php" />
+        <option value="$PROJECT_DIR$/modules/excelToDB.php" />
+        <option value="$PROJECT_DIR$/views/footer.php" />
+        <option value="$PROJECT_DIR$/views/pregled.php" />
+        <option value="$PROJECT_DIR$/modules/unosExcela.php" />
+        <option value="$PROJECT_DIR$/modules/config.php" />
+        <option value="$PROJECT_DIR$/modules/podaciInsert.php" />
+        <option value="$PROJECT_DIR$/modules/konekcija.php" />
+        <option value="$PROJECT_DIR$/views/pocetna.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/views/main.php" />
+        <option value="$PROJECT_DIR$/JS/script1.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/JS/js-xlsx-master/demos/angular2/package.json" />
+      <path value="$PROJECT_DIR$/JS/js-xlsx-master/demos/electron/package.json" />
+      <path value="$PROJECT_DIR$/JS/js-xlsx-master/demos/meteor/package.json" />
+      <path value="$PROJECT_DIR$/JS/js-xlsx-master/demos/nwjs/package.json" />
+      <path value="$PROJECT_DIR$/JS/js-xlsx-master/demos/typescript/package.json" />
+      <path value="$PROJECT_DIR$/JS/js-xlsx-master/demos/vue/package.json" />
+      <path value="$PROJECT_DIR$/JS/js-xlsx-master/demos/xhr/package.json" />
+      <path value="$PROJECT_DIR$/JS/js-xlsx-master/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="width" value="1260" />
+    <option name="height" value="720" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ipsStatistika" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ipsStatistika" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ipsStatistika" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ipsStatistika" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ipsStatistika" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ipsStatistika" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ipsStatistika\modules" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92b8ce3f-6726-4b96-aa14-5a03e844d38c" name="Default Changelist" comment="" />
+      <created>1546585629188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546585629188</updated>
+      <workItem from="1546585642103" duration="18838000" />
+      <workItem from="1546674682019" duration="7823000" />
+      <workItem from="1546692907682" duration="2778000" />
+      <workItem from="1546700926632" duration="3329000" />
+      <workItem from="1548324413496" duration="1862000" />
+      <workItem from="1548399178417" duration="23570000" />
+      <workItem from="1548805572890" duration="978000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="59178000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27382752" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.5491803" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32866043" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/modules/PHPExcel.php" />
+    <entry file="file://$PROJECT_DIR$/modules/PHPExcel_IOFactory.php" />
+    <entry file="file://$PROJECT_DIR$/script1.js" />
+    <entry file="file://$PROJECT_DIR$/modules/oleread.inc" />
+    <entry file="file://$PROJECT_DIR$/modules/reader.php" />
+    <entry file="file://$PROJECT_DIR$/modules/excelToDB.php" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/konekcija.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/podaciInsert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/unosExcela.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pregled.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pocetna.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/script1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
